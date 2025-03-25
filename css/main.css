@@ -51,4 +51,30 @@ input{
   margin: 1em;
   height: 34px;
   width: 100%;
+  overflow: hidden;
+  transition: all .2s ease-in-out;
 }
+
+.sendText{
+  display: block;
+  margin-top: 10px;
+  font-family: "Playfair Display", serif;
+  font-weight: 800;
+  font-size: 12px;
+}
+  
+.altSendButton:hover{
+  transform: translate3d(0px, -29px 0px);
+}
+
+.card{
+  background-color: rgba(0, 0, 0, 0.795);
+  color: white;
+  margin: 5%;
+}
+
+#cardSection{
+  margin: 10%;
+}
+
+
